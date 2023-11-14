@@ -22,11 +22,11 @@ const styles = StyleSheet.create({
 const pgp = require('pg-promise')();
 
 const db = pgp({
-  host: process.env.DB_SERVER,
-  port: process.env.DB_PORT,
-  database: process.env.DB_USER, // Update this to your database name
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
+  host: otto.db.elephantsql.com,
+  port: 5432,
+  database: MonopolyBH, // Update this to your database name
+  user: nxrnwban,
+  password: 4cO0FMR1k6Dl4onK_U1jvxspZry5_vzQ,
 });
 
 
